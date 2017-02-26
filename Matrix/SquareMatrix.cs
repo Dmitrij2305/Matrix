@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace MatrixLibrary
 {
-    public class SquareMatrix : Matrix
+    public class SquareMatrix<T> : Matrix<T>
     {
         public SquareMatrix(int size)
             : base(size, size)
         { }
+
+        public SquareMatrix<T> Copy()
+        {
+        }
     }
 }
