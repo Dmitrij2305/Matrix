@@ -1,0 +1,7 @@
+c:\Users\Дмитрий\documents\visual studio 2012\Projects\Matrix\MatrixTest\bin\Debug\MatrixTest.dll
+c:\Users\Дмитрий\documents\visual studio 2012\Projects\Matrix\MatrixTest\bin\Debug\MatrixTest.pdb
+c:\Users\Дмитрий\documents\visual studio 2012\Projects\Matrix\MatrixTest\bin\Debug\Matrix.exe
+c:\Users\Дмитрий\documents\visual studio 2012\Projects\Matrix\MatrixTest\bin\Debug\Matrix.pdb
+c:\Users\Дмитрий\documents\visual studio 2012\Projects\Matrix\MatrixTest\obj\Debug\MatrixTest.csprojResolveAssemblyReference.cache
+c:\Users\Дмитрий\documents\visual studio 2012\Projects\Matrix\MatrixTest\obj\Debug\MatrixTest.dll
+c:\Users\Дмитрий\documents\visual studio 2012\Projects\Matrix\MatrixTest\obj\Debug\MatrixTest.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{E3E25B37-2D77-4F20-8BFD-D789018E9894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixTest", "MatrixTest\MatrixTest.csproj", "{63825ABD-A060-439A-A4AA-B9A0E9A1EE21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E25B37-2D77-4F20-8BFD-D789018E9894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E25B37-2D77-4F20-8BFD-D789018E9894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E25B37-2D77-4F20-8BFD-D789018E9894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E25B37-2D77-4F20-8BFD-D789018E9894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63825ABD-A060-439A-A4AA-B9A0E9A1EE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63825ABD-A060-439A-A4AA-B9A0E9A1EE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63825ABD-A060-439A-A4AA-B9A0E9A1EE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63825ABD-A060-439A-A4AA-B9A0E9A1EE21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
