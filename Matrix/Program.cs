@@ -11,8 +11,14 @@ namespace MatrixLibrary
     {
         static void Main(string[] args)
         {
-            SquareMatrix<int> squareMatrix = new SquareMatrix<int>(3);
-            SquareMatrix<int> squareMatrixCopy = squareMatrix.Copy();
+            double[,] values = new double[,] { { 2, 1, 1, 2 }, { 1, -1, 0, -2 }, { 3, -1, 2, 2 } };
+            Matrix matrix = new Matrix(values);
+
+            Console.WriteLine(matrix);
+
+            Console.WriteLine(matrix.GetMinor(1,2));
+
+            Console.WriteLine(matrix.ReductionTriangularMatrix());
 
             Console.ReadKey();
         }

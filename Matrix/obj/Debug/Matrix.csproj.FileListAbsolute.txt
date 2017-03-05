@@ -4,3 +4,9 @@ c:\users\дмитрий\documents\visual studio 2012\Projects\Matrix\Matrix\bin\
 c:\users\дмитрий\documents\visual studio 2012\Projects\Matrix\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache
 c:\users\дмитрий\documents\visual studio 2012\Projects\Matrix\Matrix\obj\Debug\Matrix.exe
 c:\users\дмитрий\documents\visual studio 2012\Projects\Matrix\Matrix\obj\Debug\Matrix.pdb
+F:\Репетиторство\Дмитрий\Matrix\Matrix\bin\Debug\Matrix.exe.config
+F:\Репетиторство\Дмитрий\Matrix\Matrix\obj\Debug\Matrix.exe
+F:\Репетиторство\Дмитрий\Matrix\Matrix\obj\Debug\Matrix.pdb
+F:\Репетиторство\Дмитрий\Matrix\Matrix\bin\Debug\Matrix.exe
+F:\Репетиторство\Дмитрий\Matrix\Matrix\bin\Debug\Matrix.pdb
+F:\Репетиторство\Дмитрий\Matrix\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache
