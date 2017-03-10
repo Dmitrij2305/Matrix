@@ -83,7 +83,7 @@ namespace MatrixTest
         {
             double[,] values = new double[,] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 0, 0 } };
             Matrix matrix = new Matrix(values);
-            Matrix matrixCopy = matrix.Clone();
+            Matrix matrixCopy = (Matrix)matrix.Clone();
 
             Assert.AreNotEqual(matrixCopy, matrix);
 
@@ -97,7 +97,7 @@ namespace MatrixTest
         public void SquareMatrixCopy()
         {
             SquareMatrix squareMatrix = new SquareMatrix(3);
-            SquareMatrix squareMatrixCopy = squareMatrix.Clone();
+            SquareMatrix squareMatrixCopy = (SquareMatrix)squareMatrix.Clone();
 
             Assert.AreNotEqual(squareMatrix, squareMatrixCopy);
 
@@ -125,7 +125,7 @@ namespace MatrixTest
             double[,] values = new double[,] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 0, 0 }  };
 
             Matrix matrix = new Matrix(values);
-            Matrix transposed = matrix.Transposed;
+            Matrix transposed = (Matrix)matrix.Transposed;
 
             for (int row = 0; row < matrix.RowCount; row++)
                 for (int col = 0; col < matrix.ColCount; col++)
@@ -138,7 +138,7 @@ namespace MatrixTest
             double[,] values = new double[,] { { 1, 2, 3 }, { 5, 6, 7 }, { 9, 10, 0 } };
 
             SquareMatrix matrix = new SquareMatrix(values);
-            SquareMatrix transposed = matrix.Transposed;
+            SquareMatrix transposed = (SquareMatrix)matrix.Transposed;
 
             for (int row = 0; row < matrix.RowCount; row++)
                 for (int col = 0; col < matrix.ColCount; col++)

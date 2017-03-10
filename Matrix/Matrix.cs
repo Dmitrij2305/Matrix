@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MatrixLibrary
 {
-    public class Matrix
+    public class Matrix : IMatrix, ICloneable
     {
         protected int rowCount;
         public int RowCount
@@ -46,7 +46,7 @@ namespace MatrixLibrary
             this.values = values.Clone() as double[,];
         }
 
-        public virtual Matrix Clone()
+        public object Clone()
         {
             return new Matrix(values);
         }
@@ -191,7 +191,7 @@ namespace MatrixLibrary
             return product;
         }
 
-        public virtual Matrix Transposed
+        public IMatrix Transposed
         {
             get
             {

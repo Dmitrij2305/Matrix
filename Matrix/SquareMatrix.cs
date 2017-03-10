@@ -25,26 +25,26 @@ namespace MatrixLibrary
             return new SquareMatrix(size);
         }
 
-        private static SquareMatrix CreateUnitMatrix(int size, double unit)
+        private static SquareMatrix CreateUnitMatrix(int size)
         {
             SquareMatrix matrix = new SquareMatrix(size);
 
             for (int index = 0; index < size; index++)
-                matrix.values[index, index] = unit;
+                matrix.values[index, index] = 1.0;
 
             return matrix;
         }
 
-        public new SquareMatrix Clone()
+        public object Clone()
         {
             return new SquareMatrix(values);
         }
 
-        public new SquareMatrix Transposed
+        public IMatrix Transposed
         {
             get
             {
-                SquareMatrix transposed = this.Clone();
+                SquareMatrix transposed = (SquareMatrix)this.Clone();
 
                 for (int rowIndex = 0; rowIndex < rowCount; rowIndex++)
                     for (int colIndex = 0; colIndex < colCount; colIndex++)
